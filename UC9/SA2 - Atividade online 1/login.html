@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/login.css">
+    <title>Login - Game Mania</title>
+</head>
+<body>
+    <header>
+        <div class="container-grid posisionamento-header">
+            <a href="index.html">
+                <img src="img/game-logo.png" alt="logotipo" id="logo">
+            </a>
+            <nav id="menu" class="menu">
+                <a href="index.html">Home</a>
+                <a href="index.html">Sobre Nós</a>  
+                <a href="index.html">Fale Conosco</a>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Busque..." aria-label="Search">
+                  </form>
+                  <a href="#"><button class="btn btn-outline-success" type="submit">Buscar</button></a>
+            </nav>
+        </div>
+    </header>
+    <div class="login-area">
+        <form>
+            <!-- Email input -->
+            <div class="form-outline mb-4">
+                <label class="form-label" for="form2Example1">Usuário ou E-mail</label>
+              <input type="email" id="form2Example1" class="form-control" placeholder="Digite seu usuário ou e-mail."/>
+            </div>
+          
+            <!-- Password input -->
+            <div class="form-outline mb-4">
+                <label class="form-label" for="form2Example2">Senha</label>
+              <input type="password" id="form2Example2" class="form-control" placeholder="Digite sua senha."/>
+            </div>
+          
+            <!-- 2 column grid layout for inline styling -->
+            <div class="row mb-4">
+              <div class="col d-flex justify-content-center">
+                <!-- Checkbox -->
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="form2Example34" checked />
+                  <label class="form-check-label" for="form2Example34"> Se lembre </label>
+                </div>
+              </div>
+          
+              <div class="col">
+                <!-- Simple link -->
+                <a href="#!">Esqueceu sua senha?</a>
+              </div>
+            </div>
+          
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-primary btn-block mb-4">Login</button>
+          
+            <!-- Register buttons -->
+            <div class="text-center">
+              <p>Não tem conta? <a href="#!">Criar conta</a></p>
+            </div>
+          </form>
+    </div>
+
+    <footer>
+        <div class="container rodape"> 
+            <div class="links-footer">
+                <div class="links">
+                    <h2>Links Úteis</h2>
+                    <ul>
+                        <li><a href="#">Regras de utilização</a></li>
+                        <li><a href="#">Suporte</a></li>
+                        <li><a href="#">Central de Ajuda</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="links">
+                    <h2>Páginas</h2>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Sobre Nós</a></li>
+                        <li><a href="#">Fale Conosco</a></li>
+                        <li><a href="#">Entre ou Cadastre-se</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="sociais">
+                <h2>Fique por dentro de todas as novidades!</h2>
+                <form action="">    
+                    <input id="campo-email" type="email" placeholder="E-mail">
+                    <a href="#" class="btn btn-primary">Cadastrar</a>
+                </form>
+                <div class="siga-nos ">
+                    <h2>Siga-nos em:</h2>
+                    <li><a href="#"><img src="img/instagram.png" alt="instagram Game Mania"></a></li>
+                    <li><a href="#"><img src="img/facebook.png" alt="Facebook Game Mania"></a></li>
+                    <li><a href="#"><img src="img/youtube.png" alt="Youtuber Game Mania"></a></li>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Latest compiled and minified JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+</body>
+</html>

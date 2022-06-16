@@ -1,0 +1,58 @@
+footer {
+    background-color: black;
+
+}
+
+.rodape{
+    padding: 16px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    color: #fff;
+}
+
+.links h2 {
+    font-size: 24px;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.links-footer {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.logo-rodape {
+    width: 300px;
+}
+
+.sociais h2 {
+    color: white;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.sociais form {
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.sociais input [type="email"]::placeholder {
+    color: #B8B3b3;
+    font-weight: bold;
+}
+
+
+.siga-nos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.8em;
+}
