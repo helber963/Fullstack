@@ -1,0 +1,48 @@
+{
+  "users": [
+    {
+      "email": "helber@gmail.com",
+      "password": "atefxs1150",
+      "nome": "Helber",
+      "id": 1
+    },
+    {
+      "email": "je@email.com",
+      "password": "$2a$10$ULVBCYqB4oEKBzbXrSFKDunVSr3xHUDSIrIFlJoJfdy1Ga4llWj32",
+      "nome": "jessica",
+      "id": 2
+    }
+  ],
+  "noticias": [
+    {
+      "id": 1,
+      "imagem": "assets/img/cardnews.jpg",
+      "titula": "Black Frifay derruba o preço dp Disco de freio",
+      "descricao": "Black ffryday venede tudo pela metade do preoço"
+    },
+    {
+      "id": 2,
+      "imagem": "assets/img/cardnews.jpg",
+      "titula": "Black Frifay derruba o preço dp Disco de freio",
+      "descricao": "Black ffryday venede tudo pela metade do preoço"
+    },
+    {
+      "id": 3,
+      "imagem": "assets/img/cardnews.jpg",
+      "titula": "Black Frifay derruba o preço dp Disco de freio",
+      "descricao": "Black ffryday venede tudo pela metade do preoço"
+    },
+    {
+      "id": 4,
+      "imagem": "assets/img/cardnews.jpg",
+      "titula": "Black Frifay derruba o preço dp Disco de freio",
+      "descricao": "Black ffryday venede tudo pela metade do preoço"
+    },
+    {
+      "id": 5,
+      "imagem": "assets/img/cardnews.jpg",
+      "titula": "Black Frifay derruba o preço dp Disco de freio",
+      "descricao": "Black ffryday venede tudo pela metade do preoço"
+    }
+  ]
+}
