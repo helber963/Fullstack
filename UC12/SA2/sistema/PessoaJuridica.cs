@@ -8,6 +8,7 @@ namespace sistema
     public class PessoaJuridica : Pessoa
     {
         public string CNPJ { get; set; }
-        public string Razao { get; set; }   
+        public string Razao { get; set; }
+        public override void PagarImposto(float rendimento){}   
     }
 }
